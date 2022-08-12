@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    height: 100vh;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+}
+
+.calc{
+    position:fixed;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color:blue;
+    border:none;
+    color: black;
+    background-color:white;
+    border-style:solid;
+    border-radius: 8px;
+}
+
+.botao:hover{
+    background-color:gray;
+}
+
+#resultado{
+    width: 207px;
+    background-color:whitesmoke;
+    border-style:solid;
+    border-radius: 8px;
+    height: 30px;
+    margin: 2px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+
+
